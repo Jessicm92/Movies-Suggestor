@@ -1,0 +1,297 @@
+
+/* Navigation */
+nav {
+  color: white;
+  font-size: 21px;
+  font-family: 'Vollkorn', serif;
+  padding-top: 20px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-bottom: 50px;
+  display: flex;
+  justify-content: space-between;
+  font-weight: 500;
+  font-style: italic;
+  text-decoration: none;
+}
+/*.homediv i {
+  font-size: 30px;
+  padding: 10px;
+  color: pink;
+  align-items: baseline;*/
+/*.homelink {
+  margin-left: 5px;
+}*/
+
+/*.aboutlink {
+  margin-left: 10px;
+}*/
+
+/*.homediv i {
+  color: white;
+}*/
+.homediv a {
+  color: white;
+  display: flex;
+  align-content: left;
+  font-weight: 500;
+  font-style: italic;
+  padding: 5px;
+  text-decoration: none;
+}
+
+.homediv a:hover {
+color: #ef9fba;
+}
+
+.aboutdiv a {
+  color: white;
+  padding: 25px;
+  font-weight: 500;
+  font-style: italic;
+  text-decoration: none;
+}
+
+.aboutdiv a:hover {
+  color: #ef9fba;
+}
+/*header */
+h1 {
+  color: white;
+  font-size: 50px;
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  justify-content: center;
+  letter-spacing: 3px;
+
+}
+
+#home:hover {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 0.5rem;
+  animation: heartBeat;
+  animation-duration: 10s;
+  transition-timing-function: ease-in-out;
+}
+
+/*#homeparent {
+  align-self: center;
+}*/
+
+#homeselect{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.movies {
+  width: 30%;
+  height: 35px;
+}
+
+
+
+body {
+  background: linear-gradient(115deg, #000000 0%, #00C508 55%, #000000 100%), linear-gradient(115deg, #0057FF 0%, #020077 100%), conic-gradient(from 110deg at -5% 35%, #000000 0deg, #FAFF00 360deg), conic-gradient(from 220deg at 30% 30%, #FF0000 0deg, #0000FF 220deg, #240060 360deg), conic-gradient(from 235deg at 60% 35%, #0089D7 0deg, #0000FF 180deg, #240060 360deg);
+  background-blend-mode: soft-light, soft-light, overlay, screen, normal;;
+  width: auto;
+  height: auto;
+  margin-left: 20px;
+    }
+/*main */
+.about_css p {
+  color: white;
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+}
+
+h2 {
+  color: white;
+  font-size: 21px;
+  font-family: 'Vollkorn', serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+h2:hover {
+  text-decoration: underline;
+}
+
+p::first-letter {
+  font-size: 25px;
+}
+
+img:hover {
+  width: 250px;
+  height: 300px;
+}
+
+img {
+      width: 200px;
+      height: 250px;
+      display: block;
+      padding: 10px 10px 10px 10px;
+      margin: 10px;
+      border: 5px dotted white;
+    }
+h5:hover {
+  font-size: 21px;
+  color: #00e8d7;
+  text-decoration: underline;
+}
+
+h5 {
+      color: white;
+      font-family: 'Roboto', sans-serif;
+      text-align: center;
+      padding: 5px;
+      font-size: 16px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      /*text-align: justify;
+      width: 50%;*/
+    }
+
+.imgcontainer {
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+.moviecontainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-grow: 1;
+  width: 20%;
+}
+    /*footer */
+
+.contact-div a {
+  color: white;
+  font-size: 21px;
+  font-family: 'Vollkorn', serif;
+  font-weight: 500;
+  font-style: italic;
+  padding: 25px;
+
+}
+
+#contact {
+  display: flex;
+  /*position: absolute;*/
+  /*justify-content: center;
+  align-self: center;*/
+  justify-content: center;
+  padding-top: 250px;
+  align-items: center;
+}
+
+.instagram-link {
+  color: white;
+  margin-left: 10px;
+  padding-bottom: 50px;
+  padding-right: 20px;
+  font-size: 30px;
+
+}
+
+.instagram-p {
+  display: none;
+}
+
+/*.instagram-link:hover + p{
+  display: block;
+  background-color: blue;
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+}*/
+
+.facebook-link {
+  color: white;
+  margin-left: 10px;
+  padding-bottom: 50px;
+  padding-right: 20px;
+  font-size: 30px;
+}
+
+.facebook-p {
+  display: none;
+}
+
+/*.facebook-link:hover + p{
+  display: block;
+  background-color: blue;
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+}*/
+
+.twitter-link {
+  color: white;
+  margin-left: 10px;
+  padding-bottom: 50px;
+  padding-right: 20px;
+  font-size: 30px;
+}
+
+.twitter-p {
+  display: none;
+}
+
+/*.twitter-link:hover + p{
+  display: block;
+  background-color: blue;
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+}*/
+
+/*tooltip*/
+
+/* Tooltip container */
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+/* Tooltip text */
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+
+  /* Position the tooltip text - see examples below! */
+  position: absolute;
+  z-index: 1;
+  width: 120px;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -60px; /* Use half of the width (120/2 = 60), to center the tooltip */
+  margin-bottom: 10px;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+.tooltip .tooltiptext::after {
+  content: " ";
+  position: absolute;
+  top: 100%; /* At the bottom of the tooltip */
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: black transparent transparent transparent;
+}

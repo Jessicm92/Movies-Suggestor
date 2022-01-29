@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Vollkorn:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Vollkorn:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/cd7e20452a.js"></script>
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+      />
+    <meta charset="utf-8">
+    <title>Movie Suggestor</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="index.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.0/jquery-ui.js"></script>
+  </head>
+  <body>
+    <nav>
+      <div class="homediv">
+        <a class="homelink" href="#home"><i class="fas fa-home"></i>Home</a>
+      </div>
+      <div class="aboutdiv">
+        <a class="aboutlink" href="#about"><i class="fas fa-film"></i>About</a> <a href="#contact"><i class="far fa-address-book"></i>Contact</a>
+      </div>
+    </nav>
+    <header>
+      <div id="homeparent">
+        <div id="home">
+          <h1 class="animate__animated animate__heartBeat">What is your movie mood today?</h1>
+        </div>
+        <div id="homeselect">
+          <select class="movies" name="movies">
+            <option value="Comedy" selected>Comedy</option>
+            <option value="Romance">Romance</option>
+            <option value="Sci-fi">Sci-fi</option>
+            <option value="Horror">Horror</option>
+            <option value="Action">Action</option>
+            <option value="Fantasy">Fantasy</option>
+          </select>
+        </div>
+      </div>
+
+    </header>
+    <main>
+      <section id="about">
+        <div class="about_css">
+        <h2 id="abouth2">About</h2>
+        <p id="aboutp">This is a tool to find your perfect movie if you don't know what to watch.</p>
+        </div>
+      </section>
+      <div id="comedyjq" class="moviesection">
+      <div class="genre">
+        <h2>Comedy</h2>
+      </div>
+      <div class="imgcontainer" id="comedy">
+          <div class="moviecontainer">
+          <img src="comedy/aby.jpg" alt="Baby Boss">
+          <h5>Baby Boss</h5>
+        </div>
+      <div class="moviecontainer">
+          <img src="comedy/Back.jpg" alt="Back to the Future">
+          <h5>Back to the Future</h5>
+      </div>
+      <div class="moviecontainer">
+          <img src="comedy/coco.jpg" alt="Coco">
+          <h5>Coco</h5>
+      </div>
+      <div class="moviecontainer">
+          <img src="comedy/flores.jpg" alt="La casa de las flores">
+          <h5>La casa de las Flores</h5>
+      </div>
+      <div class="moviecontainer">
+          <img src="comedy/guy.jpg" alt="Free Guy">
+          <h5>Free Guy</h5>
+      </div>
+      <div class="moviecontainer">
+          <img src="comedy/luca.jpg" alt="Luca">
+          <h5>Luca</h5>
+      </div>
+      </div>
+      </div>
+      <div id="romancejq" class="moviesection">
+      <div class="genre">
+        <h2>Romance</h2>
+      </div>
+      <div class="imgcontainer" id="romance">
+        <div class="moviecontainer">
+        <img src="romance/notebook.jpg" alt="The notebook">
+        <h5>The Notebook</h5>
+      </div>
+      <div class="moviecontainer">
+        <img src="romance/lose.jpg" alt="How to lose a guy in 10 days">
+        <h5>How to lose a guy in 10 days</h5>
+      </div>
+      <div class="moviecontainer">
+        <img src="romance/blonde.jpg" alt="Legally Blonde">
+        <h5>Legally Blonde</h5>
+      </div>
+      <div class="moviecontainer">
+        <img src="romance/summer.jpg" alt="500 days of Summer">
+        <h5>500 days of Summer</h5>
+      </div>
+      <div class="moviecontainer">
+        <img src="romance/thevow.jpg" alt="The Vow">
+        <h5>The Vow</h5>
+      </div>
+      <div class="moviecontainer">
+        <img src="romance/things.jpg" alt="10 things I hate about you">
+        <h5>10 things I hate about you</h5>
+      </div>
+      </div>
+      </div>
+      <div id="scifijq" class="moviesection">
+      <div class="genre">
+        <h2>Sci-fi</h2>
+      </div>
+      <div class="imgcontainer" id="sci-fi">
+      <div class="moviecontainer">
+        <img src="scifi/alita.jpg" alt="Alita: Battle Angel">
+        <h5>Alita: Battle Angel</h5>
+      </div>
+      <div class="moviecontainer">
+        <img src="scifi/arrival.jpg" alt="Arrival">
+        <h5>Arrival</h5>
+      </div>
+      <div class="moviecontainer">
+        <img src="scifi/avatar.jpg" alt="Avatar">
+        <h5>Avatar</h5>
+      </div>
+      <div class="moviecontainer">
+        <img src="scifi/oblivion.jpg" alt="Oblivion">
+        <h5>Oblivion</h5>
+      </div>
+      <div class="moviecontainer">
+        <img src="scifi/super8.jpg" alt="Super 8">
+        <h5>Super 8</h5>
+      </div>
+      <div class="moviecontainer">
+        <img src="scifi/zone.jpg" alt="Twilight Zone: The movie">
+        <h5>Twilight Zone: The movie</h5>
+      </div>
+      </div>
+      </div>
+      <div id="horrorjq" class="moviesection">
+        <div class="genre">
+        <h2>Horror</h2>
+      </div>
+      <div class="imgcontainer" id="horror">
+      <div class="moviecontainer">
+        <img src="horror/breathe.jpg" alt="Don't breathe">
+        <h5>Don't breathe</h5>
+      </div>
+      <div class="moviecontainer">
+        <img src="horror/orphan.jpg" alt="The Orphan">
+        <h5>The Orphan</h5>
+      </div>
+      <div class="moviecontainer">
+        <img src="horror/ring.jpg" alt="The Ring">
+        <h5>The ring</h5>
+      </div>
+      <div class="moviecontainer">
+        <img src="horror/scream.jpg" alt="Scream">
+        <h5>Scream</h5>
+      </div>
+      <div class="moviecontainer">
+        <img src="horror/shining.jpg" alt="The Shining">
+        <h5>The Shining</h5>
+      </div>
+      <div class="moviecontainer">
+        <img src="horror/us.jpg" alt="Us">
+        <h5>Us</h5>
+      </div>
+      </div>
+      </div>
+      <div id="actionjq" class="moviesection">
+      <div class="genre">
+        <h2>Action</h2>
+      </div>
+      <div class="imgcontainer" id="action">
+      <div class="moviecontainer">
+        <img src="action/baby.jpg" alt="Baby Driver">
+        <h5>Baby Driver</h5>
+      </div>
+      <div class="moviecontainer">
+        <img src="action/gladiator.jpg" alt="Gladiator">
+        <h5>Gladiator</h5>
+      </div>
+      <div class="moviecontainer">
+        <img src="action/hardkill.jpg" alt="Hard Kill">
+        <h5>Hard Kill</h5>
+      </div>
+      <div class="moviecontainer">
+        <img src="action/irobot.jpg" alt="I robot">
+        <h5>I Robot</h5>
+      </div>
+      <div class="moviecontainer">
+        <img src="action/swat.jpg" alt="S.W.A.T.">
+        <h5>S.W.A.T.</h5>
+      </div>
+      <div class="moviecontainer">
+        <img src="action/taken3.jpg" alt="Taken 3">
+        <h5>Taken 3</h5>
+      </div>
+      </div>
+      </div>
+      <div id="fantasyjq" class="moviesection">
+      <div class="genre">
+        <h2>Fantasy</h2>
+      </div>
+      <div class="imgcontainer" id="fantasy">
+      <div class="moviecontainer">
+        <img src="fantasy/beauty.jpg" alt="Beauty and the Beast">
+        <h5>Beauty and the Beast</h5>
+      </div>
+      <div class="moviecontainer">
+        <img src="fantasy/doctor.jpg" alt="Doctor Strange">
+        <h5>Doctor Strange</h5>
+      </div>
+      <div class="moviecontainer">
+        <img src="fantasy/endgame.jpg" alt="Avengers: Endgame">
+        <h5>Avengers: Endgame</h5>
+      </div>
+      <div class="moviecontainer">
+        <img src="fantasy/lord.jpg" alt="The Lord of the Rings: The Fellowship of the Ring">
+        <h5>The Lord of the Rings: The Fellowship of the Ring</h5>
+      </div>
+      <div class="moviecontainer">
+        <img src="fantasy/narnia.jpg" alt="The Chronicles of Narnia: The Lion, the Witch and the Wardrobe">
+        <h5>The Chronicles of Narnia: The Lion, the Witch and the Wardrobe</h5>
+      </div>
+      <div class="moviecontainer">
+        <img src="fantasy/stardust.jpg" alt="Stardust">
+        <h5>Stardust</h5>
+      </div>
+      </div>
+      </div>
+    </main>
+<footer>
+  <nav class="contact" id="contact">
+    <div class="socialmedia">
+        <div class="tooltip">
+          <a class="instagram-link" href="https://www.instagram.com/imdb/?hl=es" target="_blank"> <i class="fab fa-instagram"></i></a>
+          <span class="tooltiptext">Instagram</span>
+        </div>
+        <div class="tooltip">
+          <a class="facebook-link" href="https://www.facebook.com/imdb/" target="_blank"> <i class="fab fa-facebook"></i></a>
+          <span class="tooltiptext">Facebook</span>
+        </div>
+        <div class="tooltip">
+          <a class="twitter-link" href="https://twitter.com/IMDb?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank"> <i class="fab fa-twitter"></i></a>
+          <span class="tooltiptext">Twitter</span>
+        </div>
+    </div>
+    </nav>
+</footer>
+  </body>
+</html>
