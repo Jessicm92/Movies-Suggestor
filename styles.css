@@ -1,0 +1,149 @@
+body {
+  background: #0B0C10;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  align-items: center;
+}
+
+h1 {
+  font-size: 50px;
+  color: #66fcf1;
+font-family: 'Archivo', sans-serif;
+}
+
+h2 {
+  margin-top: 2.5rem;
+  color: #66fcf1;
+  font-family: 'Open Sans', sans-serif;
+}
+
+h5, h3 {
+  color: #fff;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+}
+
+a {
+  text-decoration: none;
+}
+
+.input-group {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/*Cards*/
+.row {
+  margin: 50px;
+  justify-content: center;
+}
+
+.rounded {
+  height: 250px;
+  width: 200px;
+  margin: 15px;
+}
+
+.rounded:hover {
+  border: 5px solid white;
+}
+
+.card {
+  width: 302px;
+height: 502px;
+background-color: rgba(255, 255, 255, 0.5)
+}
+
+
+.row-cols-md-4>* {
+    flex: 0 0 0;
+    width: 100%;
+}
+
+/*Nav Bar*/
+.navbar-brand {
+  font-family: 'Archivo', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 200;
+}
+
+.about {
+  margin: 50px;
+}
+
+.icon {
+  height: 5rem;
+  width: 5rem;
+  border: none;
+}
+
+.nav-section {
+  background-color: transparent;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: #66fcf1;
+}
+
+/*Home*/
+#principal-title {
+  margin: 50px;
+  color: #fff;
+  font-family: 'Archivo', sans-serif;
+  font-weight: 500;
+  font-size: 50px;
+}
+
+#principal-title:hover {
+  animation: heartBeat;
+  animation-duration: 10s;
+  transition-timing-function: ease-in-out;
+}
+
+/*Movies section*/
+
+.text-muted {
+  color: #fff!important;
+}
+
+/*Call to Action*/
+.callAction-section {
+  font-family: "Montserrat";
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  color: #fff;
+  margin-bottom: 0.5rem;
+  margin-left: 160px;
+  margin-right: 160px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+/*Footer*/
+#footer {
+  background-color: #70E7D1;
+  height: 200px;
+}
+
+.footer-icon {
+  margin: 50px 30px;
+  font-size: 2rem;
+  text-decoration: none;
+  color: black;
+}
+
+.footer-icon:hover {
+  color: #fff;
+}
